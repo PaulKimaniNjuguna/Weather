@@ -9,8 +9,9 @@ export interface WeatherDetailProps {
 
 export default function WeatherDetails(props: WeatherDetailProps) {
     const {
-        windSpeed = "3km/h",
-        humidity = "80 %",
+        windSpeed = "",
+        humidity = "",
+        
     } = props;
     return (
         <>
